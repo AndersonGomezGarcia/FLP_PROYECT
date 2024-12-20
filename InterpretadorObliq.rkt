@@ -1,7 +1,12 @@
+;;JUAN DAVID PÉREZ VALENCIA - 2266289
+;;ANDERSON GOMEZ GARCIA - 2266242
+;;KEVIN ALEXIS LORZA RAMÍREZ - 2266098
+;;JESUS EDIBER ARENAS -  2266066
+
 #lang eopl
+(require rackunit)
 
 (define especificacion-lexica
-
   '(
     
     (espacio-blanco (whitespace) skip)
@@ -434,4 +439,7 @@
                          especificacion-lexica especificacion-gramatical)))
 
 
+
+
+(provide (all-defined-out)) 
 (interpretador)
